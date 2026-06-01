@@ -371,7 +371,7 @@
 .pt_course_section {
     padding: 70px 0;
     margin: 70px 0 10px;
-    background: #e4425233;
+    background: #42e48b40;
 }
 
 .pt_course_box {
@@ -379,7 +379,7 @@
     border-radius: 14px;
     overflow: hidden;
     padding: 40px 40px;
-    background: linear-gradient(#212924, rgb(28 28 28 / 40%)), url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80);
+    background: linear-gradient(#181918d1, rgb(28 28 28 / 79%)), url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -430,34 +430,42 @@
     font-size: 42px;
     margin: 70px 0 50px;
 }
-
 .pt_title_line {
-    width: 120px;
+    width: 200px;
     height: 4px;
-    background: white;
+    background: #f66c43;
     margin: 15px auto;
     border-radius: 50px;
 }
 
 .pt_list_box {
-    background: #dc3545;
+    background: #f66c43;
+    background: #d8e8ff40;
+    backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
     height: 100%;
+    border: 1px solid #979594;
 }
 
 .pt_list_item {
     color: white;
-    font-size: 17px;
-    font-weight: 500;
-    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.pt_list_item {
+    list-style: none;
 }
 
 .pt_list_item::before {
-    content: "•";
-    color: white;
-    font-size: 22px;
-    margin-right: 10px;
+    content: "\F362"; /* bi-check-square */
+    font-family: "bootstrap-icons" !important;
+    font-size: 20px;
+    margin-right: 12px;
+    color: #fd591d;
 }
 
 .pt_action_btn {
@@ -518,7 +526,7 @@
 
 .pt_module_tabs .nav-link {
     border: none;
-    background: #ffffff;
+    background: #4583e040;
     color: var(--title-color);
     padding: 14px 35px;
     font-weight: 600;
@@ -1282,4 +1290,9 @@ table td:nth-child(3) {
     margin-bottom: 30px;
     position: relative;
     color: var(--title-color);
+}
+
+.custom-table th, .custom-table td {
+    border: 2px solid #b5c0ff !important;
+    padding: 12px;
 }
