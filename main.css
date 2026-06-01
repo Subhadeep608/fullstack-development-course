@@ -429,7 +429,6 @@
     color: white;
     font-weight: 800;
     font-size: 42px;
-    margin: 70px 0 50px;
 }
 .pt_title_line {
     width: 200px;
@@ -497,7 +496,7 @@
 
 /* ========== MODULE TAB SECTION ========== */
 .pt_module_section {
-    padding: 0px 0 12px
+    padding: 50px 0 12px
 }
 
 .pt_module_heading {
@@ -835,7 +834,7 @@ table td:nth-child(3) {
 
 /* ========== CERTIFICATION SECTION ========== */
 .pt_certification_sec {
-    padding: 40px 0;
+    padding: 60px 0;
     margin: 60px 0px 10px;
     background: #f08e8e30;
 }

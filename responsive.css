@@ -349,8 +349,28 @@
         font-weight: 400;
         margin-bottom: 0px;
     }
-    .pt_contact_btns { 
-    right: 15px; 
+
+    .pt_contact_btns {
+        right: 15px;
+    }
+
+
+    table th:nth-child(1),
+table td:nth-child(1) {
+    width: 20%;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 35%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 45%;
+}
+.floating-card{
+    display: none;
 }
 }
 
