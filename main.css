@@ -28,6 +28,7 @@
 
 .blue-text {
     color: var(--primary-color);
+    position: relative;
 }
 
 .blue-big {
@@ -100,7 +101,7 @@
 /* Floating Card */
 .floating-card {
     position: absolute;
-    top: 260px;
+    top: 320px;
     right: -23px;
     background: #ffffff;
     width: 260px;
@@ -127,7 +128,7 @@
 .student-users {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .student-users img {
@@ -251,7 +252,7 @@
     bottom: 0;
     right: 0px;
     width: 230px;
-    height: 340px;
+    height: 230px;
     overflow: hidden;
     border: 6px solid #ebabf4fc;
     border-radius: 180px 180px 160px 160px;
