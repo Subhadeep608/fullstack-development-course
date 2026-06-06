@@ -283,6 +283,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar-toggler {
+        padding: 3px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .navbar {
+        padding: 22px 12px; 
+    }
+
     div#mainNavbar {
         position: absolute;
         width: 100%;
@@ -356,22 +366,23 @@
 
 
     table th:nth-child(1),
-table td:nth-child(1) {
-    width: 20%;
-}
+    table td:nth-child(1) {
+        width: 20%;
+    }
 
-table th:nth-child(2),
-table td:nth-child(2) {
-    width: 35%;
-}
+    table th:nth-child(2),
+    table td:nth-child(2) {
+        width: 35%;
+    }
 
-table th:nth-child(3),
-table td:nth-child(3) {
-    width: 45%;
-}
-.floating-card{
-    display: none;
-}
+    table th:nth-child(3),
+    table td:nth-child(3) {
+        width: 45%;
+    }
+
+    .floating-card {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 425px) {
