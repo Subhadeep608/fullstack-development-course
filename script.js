@@ -39,3 +39,30 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
     });
 });
+
+
+
+//For sticky header js
+const header = document.getElementById("mainHeader");
+
+const placeholder = document.createElement("div");
+placeholder.className = "header-placeholder";
+placeholder.style.height = header.offsetHeight + "px";
+
+header.parentNode.insertBefore(placeholder, header);
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 80) { // blue bar height
+
+        header.classList.add("sticky");
+        placeholder.classList.add("active");
+
+    } else {
+
+        header.classList.remove("sticky");
+        placeholder.classList.remove("active");
+
+    }
+
+});
